@@ -1,2 +1,2 @@
 .pio
-wifi_secrets.h
+src/wifi_secrets.h

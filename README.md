@@ -8,7 +8,7 @@ board. If you change this setting in .platformio.ini, you should be able to use 
 The program will wait for an incoming TCP/IP connection on port 3333, then it will poll an AD1105 ADC over I2C (0x48, ADDR
 pin pulled low) 1000 times a second and send its data over the TCP/IP socket as raw binary buffers.
 
-The hardware setup is realtively easy. You need one AD1105 and one AD8323 breakout boards. Both need to be connected to
+The hardware setup is realtively easy. You need one AD1105 and one AD8232 breakout boards. Both need to be connected to
 GND. Make sure you use the +3.3V (often labeled VCC on the ESP32 boards) for the "V" or positive Voltage connection, not
 the 5V. If you connect 5V, it may damage the data pins. ESP32 pin 22 is SDA and 21 is SCL, both need to be wired to the
 respective pins on the AD1105.
